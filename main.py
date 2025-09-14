@@ -1,3 +1,9 @@
+'''
+Perfect Guess Game-This is a fun Number Guessing Game where the computer secretly selects a random number within a given range (for example, 1 to 100). 
+Your task is to guess the number correctly. After each guess, the computer will give you hints such as “too high” or “too low” to guide you toward the answer.
+Your luck rating will be calculated based on:How many attempts you take to guess the correct number.The amount of time you spend before finding it.
+The faster and fewer tries you use, the luckier you are!
+'''
 import random
 n=random.randint(1,100)
 
@@ -53,5 +59,6 @@ elif(guesses>5 and guesses<=10):
     print("PRO LEVEL LUCK")
 elif(guesses>10):
     print("BEGINNER LEVEL LUCK")
+
 
 
